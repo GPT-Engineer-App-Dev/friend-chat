@@ -6,7 +6,7 @@ import { Avatar } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Tooltip } from "@/components/ui/tooltip";
-import { PaperPlane, Paperclip, MoreVertical } from "lucide-react";
+import { Paperclip, MoreVertical, Send } from "lucide-react"; // Corrected import
 
 const Index = () => {
   return (
@@ -90,7 +90,7 @@ const Index = () => {
           </Button>
           <Input className="flex-1 mx-4" placeholder="Type a message..." />
           <Button variant="outline" size="icon">
-            <PaperPlane className="h-5 w-5" />
+            <Send className="h-5 w-5" />
           </Button>
         </div>
       </div>
